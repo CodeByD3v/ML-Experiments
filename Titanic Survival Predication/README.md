@@ -33,7 +33,7 @@ The sinking of the Titanic is one of the most infamous shipwrecks in history. Wh
 | Language         | Python 3                                          |
 | Data Analysis    | Pandas, NumPy                                     |
 | Visualization    | Matplotlib, Seaborn                               |
-| ML Models        | Scikit-learn (Logistic Regression, Random Forest) |
+| ML Models        | Scikit-learn (Logistic Regression)                |
 | Environment      | Jupyter Notebook                                  |
 
 ---
