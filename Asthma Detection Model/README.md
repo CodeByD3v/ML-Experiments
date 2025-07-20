@@ -58,13 +58,10 @@ To get started locally, run the following command:
 
 ``` bash
 
-# Clone the full repository
 git clone https://github.com/CodeByD3v/ml-projects.git
 
-# Navigate into the cloned repository
 cd ml-projects
 
-# Navigate into the Asthma Detection model folder (replace 'asthma-detection' with the actual folder name if different)
 cd asthma-detection
 
 ```
