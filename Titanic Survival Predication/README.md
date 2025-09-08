@@ -1,6 +1,6 @@
 # 🚢 Titanic Survival Prediction
 
-![Titanic](https://upload.wikimedia.org/wikipedia/commons/f/fd/RMS_Titanic_3.jpg)
+![Titanic](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/640px-RMS_Titanic_3.jpg)
 
 Predicting the survival of passengers aboard the Titanic using Machine Learning techniques.
 
