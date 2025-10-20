@@ -40,7 +40,6 @@ $$\frac{\partial J}{\partial b} = \frac{1}{m} \sum_{i=1}^{m} (Xw + b - y)$$
 ***Note:** The implementation in the provided code includes a factor of $\mathbf{2}$ in the gradient calculation, which is equivalent to using a slightly adjusted learning rate ($\alpha/2$) for the final step:
 
 ```python
-# Custom Gradient Calculation (effectively using the standard rule times 2)
 y_prediction = self.predict(self.X)
 dw = -(2 * (self.X.T).dot(self.y - y_prediction)) / self.m # weights
 db = -2 * np.sum(self.y - y_prediction) / self.m  # bias
@@ -68,5 +67,6 @@ The **Predicted vs Actual** plot shows a strong linear relationship between the 
 The **Residuals Plot** shows a random scatter of errors around the zero line, with no discernible pattern. This indicates that the linear model assumptions are reasonably met and that the model is **not systematically biased** (no clear under- or over-estimation across the prediction range).
 
 ## Conclusion
+
 
 This project successfully verifies the principles of Linear Regression and Batch Gradient Descent through a clean, custom implementation. The high $\mathbf{R^2}$ score confirms that, with proper feature scaling and hyperparameter selection, the custom algorithm effectively minimized the MSE and found a reliable best-fit line for the data.
